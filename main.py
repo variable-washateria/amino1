@@ -2,7 +2,7 @@ import kivy
 import sys
 
 import os
-os.environ['KIVY_GL_BACKEND'] = 'angle_sdl2'
+
 
 from kivy import Config
 Config.set('graphics', 'multisamples', '0')
